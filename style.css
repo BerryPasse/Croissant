@@ -1,4 +1,22 @@
-h2 {
+h2,
+h3 {
   text-align: center;
   padding-bottom: 40px;
+}
+
+h3 {
+  text-decoration: wavy;
+  color: blueviolet;
+}
+
+email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.img-fluid {
+  border: 1 px solid black;
+  max-width: 300px;
+  padding: 10px;
 }
