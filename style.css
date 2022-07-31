@@ -3,6 +3,7 @@ body {
   padding: 40px;
 }
 
+h1,
 h2,
 h3 {
   text-align: center;
@@ -21,11 +22,9 @@ h3 {
 }
 
 .img-fluid {
-  border: 1 px solid black;
-  box-shadow: 10px;
+  border: solid black;
   max-width: 300px;
   min-height: 300px;
-  padding: 10px;
 }
 
 .homepage-link {
