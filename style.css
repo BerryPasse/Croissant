@@ -1,3 +1,8 @@
+body {
+  background-color: #f5c7a9;
+  padding: 40px;
+}
+
 h2,
 h3 {
   text-align: center;
@@ -9,14 +14,21 @@ h3 {
   color: blueviolet;
 }
 
-email-link {
-  display: flex;
-  justify-content: center;
+.email-link {
+  text-align: center;
+  display: block;
   text-decoration: none;
 }
 
 .img-fluid {
   border: 1 px solid black;
+  box-shadow: 10px;
   max-width: 300px;
+  min-height: 300px;
   padding: 10px;
+}
+
+.homepage-link {
+  text-align: center;
+  display: block;
 }
